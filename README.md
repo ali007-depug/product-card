@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:  [](https://your-live-site-url.com)
+- Solution URL:  [Git Hub repo](https://https://github.com/ali007-depug/product-card/tree/main)
 - Live Site URL: [Git Hub](https://github.com/ali007-depug/product-card)
 
 ## My process
