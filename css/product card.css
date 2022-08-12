@@ -1,10 +1,12 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-  body {
+body {
+
     background: hsl(30, 38%, 92%);
 }
+
 .container {
     width                : 530px;
     height               : 405px;
@@ -22,18 +24,23 @@
     border-top-left-radius   : 10px;
     border-bottom-left-radius: 10px;
 }
-.container .mobile{
+.container #webImg{
+    width: 255px;
+    height: 405px;
+}
+
+.container #mobileImg {
     display: none;
 }
 
 
 .rightside {
-    width  : 270px;
+    max-width: 300px;
     height : 405px;
-    padding: 15px 0 0 20px;
+    padding: 20px;
 }
 
-.title {
+.rightside #title {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-family   : Montserrat,
@@ -45,40 +52,43 @@
 
 }
 
-.heading {
+.rightside #heading {
     text-transform: capitalize;
     color         : hsl(212, 21%, 14%);
     font-family   : Fraunces;
     font-weight   : 700;
     width         : 230px;
+    line-height: 1;
 }
 
-p {
-    font-size     : 14px;
-    font-family   : Montserrat;
-    /* font-weight: 392; */
-    color         : hsla(212, 21.1%, 13.9%, 0.77);
-    width         : 230px
+.rightside p {
+    font-size  : 14px;
+    font-family: Montserrat;
+    color      : hsla(212, 21.1%, 13.9%, 0.77);
+    line-height: 1.5;
 }
 
-.price {
+#price h1 {
     color      : hsl(158, 36%, 37%);
-    padding    : 5px 5px 0 0;
+    padding    : 0 5px 0 0;
     font-family: Fraunces;
+    transform: translateY(14px);
 
 
 }
 
-.price span {
+#price #pricesm {
     font-size      : 11px;
     font-weight    : 700;
     color          : rgb(0, 0, 0, .5);
-    position       : absolute;
+    position       : relative;
+    top: -32px;
+    left: 110px;
     padding        : 10px 0 0 25px;
     text-decoration: line-through;
 }
 
-button {
+.rightside button {
     width         : 225px;
     height        : 40px;
     background    : hsl(158, 36%, 37%);
@@ -88,7 +98,7 @@ button {
     font-family   : Montserrat;
     font-weight   : 700;
     border-style  : none;
-    margin-top    : 5px;
+    margin-top    : 10px;
     font-size     : 14px;
 }
 
@@ -101,13 +111,13 @@ button img {
     right   : 10px;
     top     : 4px;
 }
-@media screen and (min-width:1440px) and (max-width:2000px){
 
-        body{
-            height: 800px;
-        }
-    
-.container {
+@media screen and (min-width:1440px) and (max-width:2000px) {
+
+    body {
+        height: 800px;
+    }
+  .container {
     width                : 530px;
     height               : 405px;
     display              : grid;
@@ -124,17 +134,24 @@ button img {
     border-top-left-radius   : 10px;
     border-bottom-left-radius: 10px;
 }
-.container .mobile{
+
+.container #webImg {
+    width : 255px;
+    height: 405px;
+}
+
+.container #mobileImg {
     display: none;
 }
 
+
 .rightside {
-    width  : 270px;
-    height : 405px;
-    padding: 15px 0 0 20px;
+    max-width: 300px;
+    height   : 405px;
+    padding  : 20px;
 }
 
-.title {
+.rightside #title {
     text-transform: uppercase;
     letter-spacing: 5px;
     font-family   : Montserrat,
@@ -146,40 +163,43 @@ button img {
 
 }
 
-.heading {
+.rightside #heading {
     text-transform: capitalize;
     color         : hsl(212, 21%, 14%);
     font-family   : Fraunces;
     font-weight   : 700;
     width         : 230px;
+    line-height   : 1;
 }
 
-p {
-    font-size     : 14px;
-    font-family   : Montserrat;
-    /* font-weight: 392; */
-    color         : hsla(212, 21.1%, 13.9%, 0.77);
-    width         : 230px
+.rightside p {
+    font-size  : 14px;
+    font-family: Montserrat;
+    color      : hsla(212, 21.1%, 13.9%, 0.77);
+    line-height: 1.5;
 }
 
-.price {
+#price h1 {
     color      : hsl(158, 36%, 37%);
-    padding    : 5px 5px 0 0;
+    padding    : 0 5px 0 0;
     font-family: Fraunces;
+    transform  : translateY(14px);
 
 
 }
 
-.price span {
+#price #pricesm {
     font-size      : 11px;
     font-weight    : 700;
     color          : rgb(0, 0, 0, .5);
-    position       : absolute;
+    position       : relative;
+    top            : -32px;
+    left           : 110px;
     padding        : 10px 0 0 25px;
     text-decoration: line-through;
 }
 
-button {
+.rightside button {
     width         : 225px;
     height        : 40px;
     background    : hsl(158, 36%, 37%);
@@ -189,7 +209,7 @@ button {
     font-family   : Montserrat;
     font-weight   : 700;
     border-style  : none;
-    margin-top    : 5px;
+    margin-top    : 10px;
     font-size     : 14px;
 }
 
@@ -203,55 +223,51 @@ button img {
     top     : 4px;
 }
 }
+@media screen and (min-width:375px) and (max-width:400px) {
+    .container {
+        width                : 345px;
+        height               : 600px;
+        display              : grid;
+        grid-template-rows   : 50% 50%;
+        grid-template-columns: 100%;
+        position             : absolute;
+        top                  : 330px;
 
-@media screen and (min-width:375px) and (max-width:400px){
-     .container {
-     width                : 345px;
-     height               : 600px;
-     display              : grid;
-     grid-template-rows   : 50% 50%;
-     grid-template-columns: 100%;
-     position             : absolute;
-     top                  : 330px;
+    }
 
- }
+    .container #webImg {
+        display: none;
+    }
 
- .container .imge {
-     display: none;
- }
+    .container #mobileImg {
+        display                  : block;
+        width                    : 345px;
+        height                   : 250px;
+        border-top-right-radius  : 10px;
+        border-top-left-radius   : 10px;
+        border-bottom-left-radius: 0px;
+    }
 
- .container .mobile {
-    display: block;
-     width                    : 345px;
-     height                   : 250px;
-     border-top-right-radius  : 10px;
-     border-top-left-radius   : 10px;
-     border-bottom-left-radius: 0px;
- }
+    .rightside {
+        width   : 270px;
+        height  : 119px;
+        padding : 0px 0 0 25px;
+        position: relative;
+        top     : -30px;
+    }
 
- .rightside {
-     width   : 270px;
-     height  : 119px;
-     padding : 0px 0 0 25px;
-     position: relative;
-     top     : -45px;
- }
+    .rightside #heading{
+        width: 260px;
+    }
 
- .heading {
-     width: 260px;
- }
+   .rightside p {
+        width: 300px;
+    }
 
- p {
-     width: 300px;
- }
+   .rightside button {
+        width : 300px;
+        height: 50px;
 
- button {
-     width : 300px;
-     height: 50px;
-
- }
+    }
 
 }
-
-
-  
