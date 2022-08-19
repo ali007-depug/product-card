@@ -18,7 +18,7 @@ Users should be able to:
 ### Links
 
 - Solution URL:  [Git Hub repo](https://https://github.com/ali007-depug/product-card/tree/main)
-- Live Site URL: [Git Hub](https://github.com/ali007-depug/product-card)
+- Live Site URL: [Git Hub](https://ali007-depug.github.io/product-card/)
 
 ## My process
 
@@ -33,6 +33,7 @@ Users should be able to:
 * How to make a responsive design 
 * add Fonts & icons
 * incressed my html and css skills especially on images ,padding and margin
+* Increase my githup experinces
 
 ### Continued development
 There is alot of things that i should focus on it such as :
