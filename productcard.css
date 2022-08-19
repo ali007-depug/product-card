@@ -73,8 +73,6 @@ body {
     padding    : 0 5px 0 0;
     font-family: Fraunces;
     transform: translateY(14px);
-
-
 }
 
 #price #pricesm {
@@ -189,8 +187,6 @@ body {
     padding    : 0 5px 0 0;
     font-family: Fraunces;
     transform  : translateY(14px);
-
-
 }
 
 #price #pricesm {
@@ -226,6 +222,7 @@ button img {
     position: relative;
     right   : 10px;
     top     : 4px;
+}
 }
 
 @media screen and (min-width:375px) and (max-width:400px) {
@@ -274,4 +271,5 @@ button img {
         height: 50px;
 
     }
+}
 
