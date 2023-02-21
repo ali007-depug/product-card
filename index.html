@@ -5,37 +5,42 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- google fonts -->
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat" />
   <link rel="stylesheet" href="https://fonts.google.com/specimen/Fraunces" />
-  <link rel="stylesheet" href="indexcss.css" />
+  <!-- main css file -->
+  <link rel="stylesheet" href="main.css" />
+  <!-- frontend mentor favicon -->
   <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png" />
-
   <title>Product card</title>
 </head>
 
 <body>
   <main>
-    <div class="container">
-      <img id="webImg"  alt="product picture"
+      
+       <div class="container">
+        <div class="product-images">
+      <img class="desktop-image"  alt="product picture"
            src="./images/image-product-desktop.jpg" />
-      <img id="mobileImg"  alt="product picture"
-           src="./images/image-product-mobile.jpg" />
-      <div class="rightside">
-        <span id="title">perfume</span>
-        <h1 id="heading">gabrielle essence eau de parfum</h1>
+      <img class="mobile-image"  alt="product picture"
+           src="./images/image-product-mobile.jpg" /> 
+          </div> 
+      <div class="texts">
+        <h3 class="tittle">perfume</h3>
+        <h1 class="heading">gabrielle essence eau de parfum</h1>
         <p>
           A floral,solar and voluptuous interpretation composed by Olivier
           Polge,Perfumer-Creator for the house of CHANEL
         </p>
-        <div id="price">
+        <div class="price">
           <h1>$149.99</h1> 
-        <span id="pricesm"> $169.99</span>
+        <span class="old-price"> $169.99</span>
         </div>
         <button>
           <span>
             <img src="./images/icon-cart.svg" alt="icon-cart" />
           </span>
-          add to cart
+          <a href="">add to cart</a>
         </button>
       </div>
     </div>

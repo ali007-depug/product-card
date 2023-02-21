@@ -13,7 +13,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](product-card-solution.png)
+#### For Desktop :
+![](for-desktop.png)
+
+##### For mobile :
+![](for-mobile.png)
 
 ### Links
 
@@ -26,7 +30,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- CSS Grid 
+- CSS flex
 
 ### What I learned
 
